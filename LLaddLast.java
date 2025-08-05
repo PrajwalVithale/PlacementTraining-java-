@@ -16,15 +16,15 @@ public class LLaddLast {
             head=newNode;
             return;
         }
+        
         Node curr=head;
         while(curr.next!=null){
             curr=curr.next;
         }
         curr.next=newNode;
-        //head=newNode;
     }
-    
-    public void printLL(){
+
+    public void printLL(Node head){
         Node curr=head;
         while(curr!=null){
             System.out.print(curr.data+" ");
@@ -40,8 +40,7 @@ public class LLaddLast {
             int d=sc.nextInt();
             s.addLast(d);
         }
-        
-        s.printLL();
+        s.printLL(head);
         sc.close();
     }
 }
