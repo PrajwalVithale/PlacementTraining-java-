@@ -1,4 +1,5 @@
 import java.util.*;
+
 //using JCF
 public class PrintingElementsFromMidUsingJCF {
     public static void main(String[] args) {
