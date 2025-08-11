@@ -67,4 +67,4 @@ public class SwapAdjacentNodes {
         list.printList(swappedHead);
         sc.close();
     }
-}
+} 
