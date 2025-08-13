@@ -39,4 +39,4 @@ public class FindingMinNodeinBST {
         System.out.println(cheapestNode(root));
         sc.close();
     }
-}
+}       
