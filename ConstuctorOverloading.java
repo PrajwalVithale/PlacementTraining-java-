@@ -16,12 +16,13 @@ class Area{
         System.out.println("Area of circle "+(22/7*r*r));
     }
 }
-
+    @SuppressWarnings("unused")
 class ConstuctorOverloading {
     public static void main(String[] args) {
         Area a=new Area(28.5f,45.f);
         Area a1=new Area(2.5,80.5);
         Area a2=new Area(5.7f);
+        //System.out.println(a,a1,a2);
         
     }
 }
